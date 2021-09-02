@@ -40,6 +40,17 @@
     .hide-tablet {
         display: none;
     }
+    /* .product__view--body-content {
+        transform: scale(0.98,0.98);
+    } */
+    .product__view-content__img-text {
+        
+        font-size: 12px;
+        display: inline-block;
+    }
+    .c-12 {
+        min-width: 50%;
+    }
 }
 
 
