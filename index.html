@@ -8,6 +8,8 @@
     <title>SNS Simen</title>
     <link rel="stylesheet" href="./assest/main.css">
     <link rel="stylesheet" href="./assest/base.css">
+    <link rel="stylesheet" href="./assest/responsive.css">
+    <link rel="stylesheet" href="./assest/gird.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
 </head>
@@ -17,7 +19,7 @@
         <header class="header">
             <div class="wrap-topheader ">
 
-                <div class="topheader grid">
+                <div class="topheader grid wide">
                     <nav class="topheader__nav">
                         <ul class="topheader__nav-list">
                             <li class="topheader__nav-item topheader__nav-item--country ">
@@ -58,7 +60,7 @@
 
                         </ul>
 
-                        <ul class="topheader__nav-list topheader__nav-list-right ">
+                        <ul class="topheader__nav-list topheader__nav-list-right hide-tablet-mobile ">
                             <li class="topheader__nav-item">
                                 <a href="" class="topheader__nav-item-link">
                                     <i class="header__nav-item-icon fas fa-user"></i> My Account
@@ -80,14 +82,45 @@
                                 </a>
                             </li>
                         </ul>
+                        <!-- mobile tablet -->
+                        <div class="responsive-topheader">
+                            <i class=" responsive-topheader-icon fas fa-anchor"></i>
+
+                            <div class="responsive-topheader-inner">
+
+                                <ul class="responsive-topheader-list  ">
+                                    <li class="responsive-topheader-item">
+                                        <a href="" class="responsive-topheader-item-link">
+                                            <i class="responsive-topheader-item-icon fas fa-user"></i> My Account
+                                        </a>
+                                    </li>
+                                    <li class="responsive-topheader-item">
+                                        <a href="" class="responsive-topheader-item-link">
+                                            <i class="responsive-topheader-item-icon far fa-heart"></i> Wishlist
+                                        </a>
+                                    </li>
+                                    <li class="responsive-topheader-item">
+                                        <a href="" class="responsive-topheader-item-link">
+                                            <i class="responsive-topheader-item-icon far fa-check-square"></i> Checkout
+                                        </a>
+                                    </li>
+                                    <li class="responsive-topheader-item">
+                                        <a href="" class="responsive-topheader-item-link">
+                                            <i class="responsive-topheader-item-icon fas fa-key"></i> Login
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
                     </nav>
                 </div>
             </div>
 
             <div class="wrap-betweenheader">
-                <div class="betweeenheader grid">
+                <div class="betweeenheader grid wide">
                     <div class="betweenheader-container">
-                        <div class="row-own">
+                        <div class="row  no-wrap ">
                             <div class="betweenheader-logo column-4">
                                 <img src="./assest/img/logo.png" alt="" class="betweenheader-logo-img">
                             </div>
@@ -98,7 +131,7 @@
                                     <div class="betweenheader__box-mask-1"> </div>
                                     <div class="betweenheader__box-mask-2"> </div>
                                 </div>
-                                <div class="betweenheader__item-info">
+                                <div class="betweenheader__item-info hide-tablet-mobile">
 
                                     <span class="betweenheader-item-header">FREE DELIVERY WORLDWIDE</span>
                                     <span class="betweenheader-item-sub">On order over $100</span>
@@ -111,7 +144,7 @@
                                     <div class="betweenheader__box-mask-1"> </div>
                                     <div class="betweenheader__box-mask-2"> </div>
                                 </div>
-                                <div class="betweenheader__item-info">
+                                <div class="betweenheader__item-info hide-tablet-mobile ">
 
                                     <span class="betweenheader-item-header">UP TO 20% OFF COSY LAYERS</span>
                                     <span class="betweenheader-item-sub">Lorem ipsum dolor sit amet</span>
@@ -124,7 +157,7 @@
                                     <div class="betweenheader__box-mask-1"> </div>
                                     <div class="betweenheader__box-mask-2"> </div>
                                 </div>
-                                <div class="betweenheader__item-info">
+                                <div class="betweenheader__item-info hide-tablet-mobile">
 
                                     <span class="betweenheader-item-header">BUY 1 GET 1 FREE</span>
                                     <span class="betweenheader-item-sub">On order over $100</span>
@@ -139,9 +172,9 @@
 
             <div class="wrap-header">
                 <div class="header">
-                    <nav class="header__nav grid">
-                        <div class="header__nav-item">
-                            <ul class="header__nav-list">
+                    <nav class="header__nav grid wide">
+                        <div class="header__nav-item ">
+                            <ul class="header__nav-list hide-tablet-mobile">
                                 <li class="header__nav-list-item  home__nav-homepage">
                                     <a href="" class="header__nav-list-item--link active ">HOME</a>
                                     <!-- home page -->
@@ -173,7 +206,7 @@
                                     <a href="" class="header__nav-list-item--link">Furniture</a>
 
                                     <div class="header__nav-furniture  ">
-                                        <div class="row-own header__nav-furniture-container">
+                                        <div class="row no-wrap  header__nav-furniture-container">
                                             <div class="header__nav-furniture--item column-4">
                                                 <h3 class="header__nav-furniture--header">
                                                     TABLE
@@ -325,7 +358,7 @@
                                     <a href="" class="header__nav-list-item--link  ">Bedroom furniture</a>
 
                                     <div class="header__nav-bedroom ">
-                                        <div class="header__nav-bedroom-container row-own">
+                                        <div class="header__nav-bedroom-container row no-wrap ">
                                             <div class="header__nav-bedroom-item column-4">
                                                 <div class="header__bedroom-container-img">
 
@@ -380,7 +413,7 @@
                                     <a href="" class="header__nav-list-item--link">Shop</a>
 
                                     <div class="header__nav-shop">
-                                        <div class="header__nav-shop--container row-own">
+                                        <div class="header__nav-shop--container row no-wrap ">
 
                                             <div class="header__nav-shop--item column-3">
                                                 <h3 class="header__nav-shop--header">
@@ -513,7 +546,7 @@
                                     <a href="" class="header__nav-list-item--link">Shortcodes</a>
 
                                     <div class="header__nav-Shortcodes">
-                                        <div class="header__nav-Shortcodes--container row-own">
+                                        <div class="header__nav-Shortcodes--container row no-wrap ">
 
                                             <div class="header__nav-Shortcodes--item column-3">
                                                 <h3 class="header__nav-Shortcodes--header">
@@ -583,7 +616,59 @@
                                 </li>
 
                             </ul>
+
+                            <label for="mobile__tablet-checkbox" class="header__mobile-nav">
+                                <i class="fas fa-bars responsive-header__nav-icon"></i>
+                             </label>
+
+                            <input type="checkbox" hidden id="mobile__tablet-checkbox" class="nav__checkbox">
+                            <label for="mobile__tablet-checkbox" class="reponsive__coating">
+
+                            </label>
+                            <div class="responive-header__nav-wrap">
+                                <ul class="responsive-header__nav-list">
+                                    <li class="responsive-header__nav-item">
+                                        <a href="" class="responsive-header__nav-item-link">Home</a>
+                                        <i class="fas fa-plus-circle mobile__tablet-icon"></i>
+                                    </li>
+                                    <li class="responsive-header__nav-item">
+                                        <a href="" class="responsive-header__nav-item-link">Furniture</a>
+                                        <i class="fas fa-plus-circle mobile__tablet-icon"></i>
+                                    </li>
+                                    <li class="responsive-header__nav-item">
+                                        <a href="" class="responsive-header__nav-item-link">Coffee Tables</a>
+                                        <i class="fas fa-plus-circle mobile__tablet-icon"></i>
+                                    </li>
+                                    <li class="responsive-header__nav-item">
+                                        <a href="" class="responsive-header__nav-item-link">Sofas</a>
+                                        <i class="fas fa-plus-circle mobile__tablet-icon"></i>
+                                    </li>
+                                    <li class="responsive-header__nav-item">
+                                        <a href="" class="responsive-header__nav-item-link">Bedroom furniture</a>
+                                        <i class="fas fa-plus-circle mobile__tablet-icon"></i>
+                                    </li>
+                                    <li class="responsive-header__nav-item">
+                                        <a href="" class="responsive-header__nav-item-link">Shop</a>
+                                        <i class="fas fa-plus-circle mobile__tablet-icon"></i>
+                                    </li>
+                                    <li class="responsive-header__nav-item">
+                                        <a href="" class="responsive-header__nav-item-link">Blog</a>
+                                        <i class="fas fa-plus-circle mobile__tablet-icon"></i>
+                                    </li>
+                                    <li class="responsive-header__nav-item">
+                                        <a href="" class="responsive-header__nav-item-link">Shortcodes</a>
+                                        <i class="fas fa-plus-circle mobile__tablet-icon"></i>
+                                    </li>
+                                    <li class="responsive-header__nav-item">
+                                        <a href="" class="responsive-header__nav-item-link">Contact us</a>
+                                        <i class="fas fa-plus-circle mobile__tablet-icon"></i>
+                                    </li>
+
+                                </ul>
+
                             </div>
+                            </div>
+
 
                             <div class="header__nav-item home__nav-cart">
                                 <i class="header__nav-item--icon fas fa-search"></i>
@@ -604,19 +689,22 @@
                             </div>
 
 
+
                     </nav>
 
                     </div>
                     </div>
+
+
         </header>
         <div class="container">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="container__banner">
-                    <div class="wrap-container-banner">
-                        <div class="container__banner-item-left ">
+                    <div class="wrap-container-banner row-own">
+                        <div class="container__banner-item-left  column-2">
                             <img src="./assest/img/banner/01.png" alt="" class="container__banner-item-left--img">
                         </div>
-                        <div class="container__banner-item-right ">
+                        <div class="container__banner-item-right column-2 ">
                             <div class="container__banner-item-right-1">
 
                                 <img src="./assest/img/banner/5.png" alt="" class="container__banner-item-right--img">
@@ -646,8 +734,8 @@
                 </div>
                 <div class="wrap-container-product">
                     <div class="container__product">
-                        <div class="container__product-item title">
-                            <ul class="container__product-list--title">
+                        <div class="container__product-item title mobile__tablet-show">
+                            <ul class="container__product-list--title hide-tablet-mobile">
                                 <li class="container__product-title--item ">
                                     <a href="" class="container__product-title--link now-2">Latest</a>
                                 </li>
@@ -660,11 +748,37 @@
 
                             </ul>
 
+                            <!-- mobile tablet title -->
+                            <a href="" class="mobile__tablet-title-icon-link">
+
+                                <span class="mobile__tablet-title-icon">
+                                    <i class="fas fa-bars "></i>
+                                </span>
+                            </a>
+                            <div class="mobile__tablet-title">
+
+                                <div class="mobile__tablet-title-body">
+                                    <ul class="mobile__tablet-title-list ">
+                                        <li class="mobile__tablet-title--item  active-title ">
+                                            <a href="" class="mobile__tablet-title--link">Latest</a>
+                                        </li>
+                                        <li class="mobile__tablet-title--item ">
+                                            <a href="" class="mobile__tablet-title--link">Best Seller</a>
+                                        </li>
+                                        <li class="mobile__tablet-title--item">
+                                            <a href="" class="mobile__tablet-title--link">Featured</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+
                         </div>
                         <div class="container__product-item  ">
-                            <div class="grid__row">
+                            <div class="row ">
 
-                                <a href="#" class="container-product-item  column ">
+                                <a href="#" class="container-product-item  col l-2-4 m-3 c-12  ">
                                     <div class="container__product-item__img" style="background-image:url(./assest/img/1.jpg);">
                                         <div class="container__product-item__img-wrap">
 
@@ -696,7 +810,7 @@
 
                                     </div>
                                 </a>
-                                <a href="#" class="container-product-item column ">
+                                <a href="#" class="container-product-item col l-2-4 m-3 c-12 ">
                                     <div class="container__product-item__img" style="background-image:url(./assest/img/product/3.jpg);">
                                         <div class="container__product-item__img-wrap">
 
@@ -724,7 +838,7 @@
                                         <i class="fas fa-star"></i>
                                     </span>
                                 </a>
-                                <a href="#" class="container-product-item column ">
+                                <a href="#" class="container-product-item col l-2-4 m-3 c-12 ">
                                     <div class="container__product-item__img" style="background-image:url(./assest/img/product/4.jpg);">
                                         <div class="container__product-item__img-wrap">
 
@@ -752,7 +866,7 @@
                                         <i class="fas fa-star"></i>
                                     </span>
                                 </a>
-                                <a href="#" class="container-product-item column ">
+                                <a href="#" class="container-product-item col l-2-4 m-3 c-12 ">
                                     <div class="container__product-item__img" style="background-image:url(./assest/img/product/5.jpg);">
                                         <div class="container__product-item__img-wrap">
 
@@ -780,7 +894,7 @@
                                         <i class="fas fa-star"></i>
                                     </span>
                                 </a>
-                                <a href="#" class="container-product-item column ">
+                                <a href="#" class="container-product-item col l-2-4 m-3 c-12 ">
                                     <div class="container__product-item__img" style="background-image:url(./assest/img/product/6.jpg);">
                                         <div class="container__product-item__img-wrap">
 
@@ -821,8 +935,11 @@
 
                         <div class="container__product-item container--background-image row-own">
 
-                            <img src="./assest/img/call-to-action.jpg" alt="" class="container--background-image__img">
-                            <div class=" container--background-image-info">
+                            <div class="container--background-image-wrap-img column-2">
+
+                                <img src="./assest/img/call-to-action.jpg" alt="" class="container--background-image__img">
+                            </div>
+                            <div class=" container--background-image-info column-2">
 
                                 <h1 class="container__product-header">AXEL - STOOL</h1>
                                 <h3 class="container__product-sub">NEW PRODUCTS</h3>
@@ -834,7 +951,10 @@
 
                         <div class="container__product-item container__product-item-3 ">
                             <h1 class="container__product-item--heading">SUGGEST COLLECTION</h1>
-                            <div class="container__product-item-demo">
+                            <span class="mobile__tablet-title-icon">
+                                <i class="fas fa-bars "></i>
+                            </span>
+                            <div class="container__product-item-demo hide-tablet-mobile">
                                 <ul class="product-item-demo-list">
                                     <li class="product-item-demo--item now ">
                                         <a href="" class="product-demo--link">
@@ -904,8 +1024,8 @@
                                 </ul>
                             </div>
 
-                            <div class="container__product-item grid__row ">
-                                <a href="#" class="container-product-item  column ">
+                            <div class="container__product-item row no-wrap  ">
+                                <a href="#" class="container-product-item  col l-2-4 m-3 c-12 ">
                                     <div class="container__product-item__img" style="background-image:url(./assest/img/1.jpg);">
                                         <div class="container__product-item__img-wrap">
 
@@ -937,7 +1057,7 @@
 
                                     </div>
                                 </a>
-                                <a href="#" class="container-product-item column ">
+                                <a href="#" class="container-product-item col l-2-4 m-3 c-12 ">
                                     <div class="container__product-item__img" style="background-image:url(./assest/img/product/4.jpg);">
                                         <div class="container__product-item__img-wrap">
 
@@ -965,7 +1085,7 @@
                                         <i class="fas fa-star"></i>
                                     </span>
                                 </a>
-                                <a href="#" class="container-product-item column ">
+                                <a href="#" class="container-product-item col l-2-4 m-3 c-12 ">
                                     <div class="container__product-item__img" style="background-image:url(./assest/img/product/3.jpg);">
                                         <div class="container__product-item__img-wrap">
 
@@ -993,7 +1113,7 @@
                                         <i class="fas fa-star"></i>
                                     </span>
                                 </a>
-                                <a href="#" class="container-product-item column ">
+                                <a href="#" class="container-product-item col l-2-4 m-3 c-12 ">
                                     <div class="container__product-item__img" style="background-image:url(./assest/img/product/5.jpg);">
                                         <div class="container__product-item__img-wrap">
 
@@ -1021,7 +1141,7 @@
                                         <i class="fas fa-star"></i>
                                     </span>
                                 </a>
-                                <a href="#" class="container-product-item column ">
+                                <a href="#" class="container-product-item col l-2-4 m-3 c-12 ">
                                     <div class="container__product-item__img" style="background-image:url(./assest/img/product/6.jpg);">
                                         <div class="container__product-item__img-wrap">
 
@@ -1055,21 +1175,21 @@
 
                         </div>
                         <div class="container__product-item">
-                            <div class="container__product-item-list--img row-own ">
-                                <div class=" list-img container__product-item-fist">
+                            <div class="container__product-item-list--img row-own  ">
+                                <div class=" list-img container__product-item-fist  ">
 
-                                    <img src="./assest/img/banner-2/baner-shipping.jpg" alt="" class="container__product-item-fist--img">
+                                    <img src="./assest/img/banner-2/baner-shipping.jpg " alt="" class="container__product-item-fist--img">
                                     <div class="after">
                                     </div>
                                 </div>
 
-                                <div class="list-img  container__product-item-img-second ">
+                                <div class="list-img  container__product-item-img-second     ">
 
                                     <img src="./assest/img/banner-2/banner3.jpg" alt="" class=" container__product-item-img-second--img">
 
                                 </div>
 
-                                <div class="list-img  container__product-item-third ">
+                                <div class="list-img  container__product-item-third    ">
 
                                     <img src="./assest/img/banner-2/banner4.jpg" alt="" class="container__product-item-third--img-">
 
@@ -1094,8 +1214,8 @@
                                     </div>
                                 </div>
                                 <div class="product__view--body">
-                                    <div class="product__view--body-list grid__row">
-                                        <div class="column-4">
+                                    <div class="product__view--body-list row no-wrap ">
+                                        <div class="l-3 col m-4 c-12  ">
                                             <div class="product__view--body-item">
                                                 <a href="" class="product-view-img--link">
                                                     <img src="./assest/img/product/4.jpg" alt="" class="product__view--img">
@@ -1114,12 +1234,12 @@
                                                         <i class="fas fa-star"></i>
                                                     </span>
                                                     <div class="product__view-content__img-text">
-                                                        <i class="style-5 fas fa-shopping-cart"></i> Add to cart
+                                                        <i class="style-5 fas fa-shopping-cart product__view-content-cart"></i> Add to cart
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="column-4">
+                                        <div class="l-3 col m-4 c-12 ">
                                             <div class="product__view--body-item">
                                                 <a href="" class="product-view-img--link">
 
@@ -1139,12 +1259,12 @@
                                                         <i class="fas fa-star"></i>
                                                     </span>
                                                     <div class="product__view-content__img-text">
-                                                        <i class="style-5 fas fa-shopping-cart"></i>Select options
+                                                        <i class="style-5 fas fa-shopping-cart product__view-content-cart"></i>Select options
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="column-4">
+                                        <div class="l-3 col m-4 c-12 ">
                                             <div class="product__view--body-item">
                                                 <a href="" class="product-view-img--link">
 
@@ -1164,12 +1284,12 @@
                                                         <i class="fas fa-star"></i>
                                                     </span>
                                                     <div class="product__view-content__img-text">
-                                                        <i class="style-5 fas fa-shopping-cart"></i> Add to cart
+                                                        <i class="style-5 fas fa-shopping-cart product__view-content-cart"></i> Add to cart
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="column-4">
+                                        <div class="l-3 col c-42   ">
                                             <div class="product__view--body-item">
                                                 <a href="" class="product-view-img--link">
 
@@ -1189,15 +1309,15 @@
                                                         <i class="fas fa-star"></i>
                                                     </span>
                                                     <div class="product__view-content__img-text">
-                                                        <i class="style-5 fas fa-shopping-cart"></i> Add to cart
+                                                        <i class="style-5 fas fa-shopping-cart product__view-content-cart"></i> Add to cart
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="product__view--body-list grid__row">
-                                        <div class="column-4">
+                                    <div class="product__view--body-list row no-wrap ">
+                                        <div class="l-3 col m-4 c-12 ">
                                             <div class="product__view--body-item">
                                                 <a href="" class="product-view-img--link">
 
@@ -1217,12 +1337,12 @@
                                                         <i class="fas fa-star"></i>
                                                     </span>
                                                     <div class="product__view-content__img-text">
-                                                        <i class="style-5 fas fa-shopping-cart"></i> Add to cart
+                                                        <i class="style-5 fas fa-shopping-cart product__view-content-cart"></i> Add to cart
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="column-4">
+                                        <div class="l-3 col m-4 c-12 ">
                                             <div class="product__view--body-item">
                                                 <a href="" class="product-view-img--link">
 
@@ -1242,12 +1362,12 @@
                                                         <i class="fas fa-star"></i>
                                                     </span>
                                                     <div class="product__view-content__img-text">
-                                                        <i class="style-5 fas fa-shopping-cart"></i>Select options
+                                                        <i class="style-5 fas fa-shopping-cart product__view-content-cart"></i>Select options
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="column-4">
+                                        <div class="l-3 col m-4 c-12 ">
                                             <div class="product__view--body-item">
                                                 <a href="" class="product-view-img--link">
 
@@ -1272,7 +1392,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="column-4">
+                                        <div class="l-3 col m-4 c-12 ">
                                             <div class="product__view--body-item">
                                                 <a href="" class="product-view-img--link">
 
@@ -1321,9 +1441,9 @@
                                 </div>
 
                                 <div class="container__posts-body">
-                                    <div class="row-own">
+                                    <div class="row-own no-wrap ">
 
-                                        <div class="container__posts-item column-3 ">
+                                        <div class="container__posts-item col l-4 m-6 c-12 ">
                                             <div class="container__posts-img ">
                                                 <img src="./assest/img/banner-2/banner-end1.jpg" alt="" class="container__posts-img--item">
                                                 <div class="after">
@@ -1344,7 +1464,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="container__posts-item  column-3">
+                                        <div class="container__posts-item  col l-4 m-6 c-12">
                                             <div class="container__posts-img">
                                                 <img src="./assest/img/banner-2/banner-end2.jpg" alt="" class="container__posts-img--item">
                                                 <div class="after">
@@ -1365,7 +1485,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="container__posts-item  column-3">
+                                        <div class="container__posts-item  col l-4 m-6 c-12">
                                             <div class="container__posts-img">
                                                 <img src="./assest/img/banner-2/bannerend-3.jpg" alt="" class="container__posts-img--item">
                                                 <div class="after">
@@ -1408,10 +1528,10 @@
         </div>
         <div class="footer">
 
-            <div class="grid">
+            <div class="grid wide">
 
-                <div class="row-own">
-                    <div class="footer-item column">
+                <div class="row ">
+                    <div class="footer-item col l-2-4 m-6 c-12">
                         <h1 class="footer--heading">Contact US</h1>
                         <div class="footer-body">
                             <div class="footer-body-item">
@@ -1440,7 +1560,7 @@
                         </div>
 
                     </div>
-                    <div class="footer-item column">
+                    <div class="footer-item col l-2-4 m-6 c-12">
                         <h1 class="footer--heading">Service</h1>
                         <div class="footer-body">
                             <ul class="footer-list">
@@ -1477,7 +1597,7 @@
                         </div>
 
                     </div>
-                    <div class="footer-item column">
+                    <div class="footer-item col l-2-4 m-6 c-12">
                         <h1 class="footer--heading">Account</h1>
                         <div class="footer-body">
                             <ul class="footer-list">
@@ -1516,7 +1636,7 @@
                         </div>
 
                     </div>
-                    <div class="footer-item column">
+                    <div class="footer-item col l-2-4 m-6 c-12">
                         <h1 class="footer--heading">Newsletter</h1>
                         <div class="footer-body">
                             <ul class="footer-list">
@@ -1553,7 +1673,7 @@
                         </div>
 
                     </div>
-                    <div class="footer-item column">
+                    <div class="footer-item col l-2-4 m-6 c-12">
                         <h1 class="footer--heading">Contact US</h1>
                         <div class="footer-body">
                             <p class="footer-body-sub-btn">Register your email for news</p>
@@ -1568,7 +1688,7 @@
 
 
             <div class="footer__bottom">
-                <div class="grid wide">
+                <div class="grid wide ">
                     <p class="footer__text">
                         © 2015 Ecommerce software by Wordpress™ Designed by SNSTheme.Com
                     </p>

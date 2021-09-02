@@ -4,7 +4,7 @@
 }
 
 * {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 body {
@@ -20,25 +20,23 @@ html {
     box-sizing: border-box;
 }
 
-.grid {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
 .grid__row {
     display: flex;
+    flex-wrap: wrap;
     margin-left: -10px;
     margin-right: -10px;
 }
 
 .row-1 {
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 15px;
 }
 
 .row-2 {
     margin-top: 15px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .row-own {
