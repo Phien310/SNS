@@ -1286,8 +1286,8 @@
     /* mobile tablet title */
     
     .mobile__tablet-title-icon {
-        font-size: 2rem;
-        display: inline-block;
+        font-size: 2.2rem;
+        display: inline;
         margin-bottom: 4px;
         position: relative;
         display: none;
@@ -1450,6 +1450,7 @@
         padding: 10px 30px;
         font-size: 1.3rem;
         color: #666;
+        width: 33.333%;
     }
     
     .container__product-item__img-wrap {
@@ -1765,7 +1766,7 @@
     
     .product-view-img--link {
         display: flex;
-        padding-right: 10px;
+        margin-right: 10px;
     }
     
     .product__view--img {
