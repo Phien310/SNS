@@ -8,6 +8,7 @@
     }
     
     .topheader__nav {
+        line-height: 40px;
         display: flex;
         justify-content: space-between;
     }
@@ -215,6 +216,21 @@
         padding-top: 40px;
         padding-bottom: 34px;
         cursor: pointer;
+        display: flex;
+    }
+    
+    .betweenheader-logo {
+        width: 30%;
+    }
+    
+    .betweenheader-item-innner {
+        display: flex;
+    }
+    
+    .betweenheader-item {
+        display: flex;
+        align-items: center;
+        margin-left: 32px;
     }
     
     .betweenheader__box {
@@ -258,11 +274,6 @@
     
     .betweenheader__box:hover .betweenheader__box-icon {
         color: #fff;
-    }
-    
-    .betweenheader-item {
-        display: flex;
-        align-items: center;
     }
     
     .betweenheader__item-info {
@@ -1092,7 +1103,7 @@
     
     .container__banner-item-right--img {
         width: 100%;
-        height: auto;
+        height: 100%;
     }
     
     .container__banner-item-right-row-bottom {
@@ -1100,7 +1111,7 @@
     }
     
     .container__banner-item--img-2 {
-        height: auto;
+        height: 100%;
         cursor: pointer;
         max-width: 100%;
     }
@@ -1983,6 +1994,7 @@
     .footer-body-sub-btn {
         font-size: 1.2rem;
         color: #333;
+        margin-bottom: 12px;
     }
     
     .footer-body--submit {

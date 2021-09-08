@@ -40,6 +40,30 @@
     .hide-tablet {
         display: none;
     }
+    /* ...................... */
+    .product-view-img--link {
+        width: 50%;
+    }
+    .product__view--body-content {
+        width: 50%;
+    }
+    .grid.wide {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .product__posts-heading::before,
+    .product__view-heading::before {
+        width: 62%;
+        right: 92px;
+        top: 15px;
+    }
+    .betweenheader-item {
+        padding: 0px 30px;
+    }
 }
 
 
@@ -49,4 +73,72 @@
     .hide-moblie {
         display: none;
     }
+    .product__view--body-item {
+        height: 195px;
+        justify-content: flex-start;
+        display: flex;
+        padding-left: 10px;
+    }
+    .betweenheader-logo {
+        margin: 0 auto;
+        display: block;
+    }
+    .betweenheader-container {
+        display: block;
+    }
+    .betweenheader-item-innner {
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .row-own.container__banner-item-right-row-bottom,
+    .container__product-item.container--background-image.row-own,
+    .container__product-item-list--img.row-own,
+    .wrap-container-banner.row-own,
+    .container__banner {
+        display: block;
+    }
+    .column-2 {
+        width: auto;
+    }
+    .container__banner-item-right-2,
+    .container__banner-item-left,
+    .container__product-item-fist--img,
+    .container__product-item-img-second--img,
+    .container__product-item-third--img,
+    .container__product-item-third--img-,
+    .container__banner-item-right-1 {
+        margin-bottom: 30px;
+    }
+    .container__product-item-img-second,
+    .container__product-item-third,
+    .container__banner-item-right-row-bottom {
+        text-align: center;
+    }
+    .product__posts-heading::before,
+    .product__view-heading::before {
+        width: 41%;
+        top: 16px;
+    }
+    .footer-body-sub-btn {
+        margin-bottom: 12px;
+    }
+    .container__product-sub {
+        margin-bottom: 12px;
+    }
 }
+
+
+/* 
+.betweenheader-item-innner.column-2 {
+    display: flex;
+    padding: 0px -41px;
+    justify-content: space-between;
+    /* margin-right: 15px; */
+
+
+/* 
+}
+.betweenheader-logo.column-2 {
+    width: 27%;
+}
+*/
