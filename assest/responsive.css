@@ -38,6 +38,18 @@
     .contact-icon {
         padding: 11px 18px;
     }
+    .topheader__nav-country {
+        top: 35px;
+        z-index: 99;
+    }
+    .topheader__nav-tongle {
+        height: 86px;
+        top: 38px;
+        z-index: 99;
+    }
+    li.tongle-item {
+        padding: 2px 4px;
+    }
 }
 
 

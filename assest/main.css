@@ -81,6 +81,7 @@
         right: 70px;
     }
     
+    .tongle-item:hover,
     .topheader-item__country-list:hover {
         background-color: #F5F5F5;
         cursor: pointer;
