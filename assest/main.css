@@ -1160,6 +1160,7 @@
         z-index: 1;
     }
     
+    .after-2,
     .after {
         position: absolute;
         top: 0;
@@ -1172,7 +1173,7 @@
     }
     
     .container__posts-img:hover .after,
-    .container__product-item-fist:hover .after,
+    .container__product-item-fist:hover .after-2,
     .container__banner-item-right-1:hover .after {
         display: block;
         background: rgba(0, 0, 0, .6);
@@ -1295,7 +1296,7 @@
     
     .mobile__tablet-title-body {
         position: absolute;
-        top: 100%;
+        top: 24px;
         left: 0;
         z-index: 1000;
         display: none;
