@@ -50,6 +50,26 @@
     li.tongle-item {
         padding: 2px 4px;
     }
+    .responsive-topheader-inner {
+        left: -75px;
+        width: 140px;
+        top: 99%;
+        background: #fff;
+        z-index: 99;
+    }
+    ul.responsive-topheader-list {
+        line-height: 29px;
+    }
+    .responsive-topheader-item {
+        display: block;
+        border: 1px solid #ccc;
+        list-style: none;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    li.topheader-item__country-list {
+        padding: 4px 8px;
+    }
 }
 
 

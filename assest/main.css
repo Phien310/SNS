@@ -177,7 +177,6 @@
         width: 115px;
         border: 1px solid #ccc;
         top: 100%;
-        padding: 4px 4px;
         animation: fadeIn linear .3s;
         display: none;
     }
@@ -198,10 +197,15 @@
         list-style: none;
     }
     
+    .responsive-topheader-item:hover {
+        background-color: #F5F5F5;
+    }
+    
     .responsive-topheader-item-link {
         text-decoration: none;
         font-size: 1.2rem;
         color: #888;
+        padding: 0px 6px;
     }
     
     .responsive-topheader-item-link:hover {
